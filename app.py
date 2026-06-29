@@ -24,7 +24,7 @@ st.title("📊 Dashboard Estilo Power BI - Big Data")
 #)
 
 #df_base = pd.read_sql("SELECT * FROM cliente", con=conexion)
-#df = pd.read_csv("datos_practica.csv")
+df = pd.read_csv("datos_practica.csv")
 
 # =========================
 # MENÚ LATERAL (POWER BI STYLE)
