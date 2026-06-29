@@ -1,4 +1,4 @@
-import mysql.connector
+# import mysql.connector
 import pandas as pd
 import streamlit as st
 import numpy as np
@@ -16,15 +16,15 @@ st.title("📊 Dashboard Estilo Power BI - Big Data")
 # =========================
 # CONEXIÓN MYSQL
 # =========================
-conexion = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="isa123",
-    database="bd_lavadora"
-)
+#conexion = mysql.connector.connect(
+#    host="localhost",
+#    user="root",
+#    password="isa123",
+#   database="bd_lavadora"
+#)
 
-df_base = pd.read_sql("SELECT * FROM cliente", con=conexion)
-df = pd.read_csv("datos_practica.csv")
+#df_base = pd.read_sql("SELECT * FROM cliente", con=conexion)
+#df = pd.read_csv("datos_practica.csv")
 
 # =========================
 # MENÚ LATERAL (POWER BI STYLE)
